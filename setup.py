@@ -8,7 +8,7 @@ description='Python serial interface for Thorlabs MCM3000 Series 3-Axis Controll
 packages=find_packages(),
 classifiers=[
 'Programming Language :: Python :: 3',
-'License :: GNU 3',
+'License: GNU 3',
 'Operating System :: OS Independent',
 ],
 python_requires='>=3.6',
