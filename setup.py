@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 setup(
 name='MCM3000',
-version='0.1',
+version='0.2',
 author='sstucker',
 author_email='sstucker@nyu.edu',
 description='Python serial interface for Thorlabs MCM3000 Series 3-Axis Controller originally forked from amsikking/thorlabs_MCM3000.',
