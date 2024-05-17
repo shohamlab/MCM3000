@@ -3,6 +3,7 @@ import time
 import serial
 from serial.tools.list_ports import comports
 
+
 _SUPPORTED_STAGES = {
     'ZFM2020': (0.2116667, 1e3 * 12.7),
     'ZFM2030': (0.2116667, 1e3 * 12.7),
@@ -22,7 +23,7 @@ class MCM3000:
     Serial interface for MCM3000 motorized stage controller from Thorlabs.
     """
 
-    def __init__(self, which_port: str, stages=(None, None, None), reverse=(False, False, False), verbose=True, very_verbose=False):
+    def __init__(self, which_port: str, stages=(None, None, None), reverse=(False, False, False), verbose=False, very_verbose=False):
         """
         Initialize the MCM3000 controller.
         :param which_port: The serial port to use, or 'auto' to automatically detect.
