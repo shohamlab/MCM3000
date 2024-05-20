@@ -1,3 +1,5 @@
+[![PyPI version](https://badge.fury.io/py/MCM3000.svg)](https://badge.fury.io/py/MCM3000)
+
 ### MCM3000
 Python 3 serial interface for Thorlabs MCM3000 Series 3-Axis Controllers. A fork of [amsikking/thorlabs_MCM3000](https://github.com/amsikking/thorlabs_MCM3000) to which I've added timeouts and made a few stylistic changes.
 
